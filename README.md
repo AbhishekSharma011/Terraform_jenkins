@@ -64,11 +64,11 @@ After applying the changes, note the public IP of the Jenkins EC2 instance.
 
 ├── variables.tf           # Terraform variables definition
 
-├── terraform.tfvars       # User-specific variables
+├── provider.tf            # provider-specific configrations
 
 ├── setup_jenkins.sh       # Script to install and configure Jenkins
 
-├── outputs.tf             # Outputs (like public IP of Jenkins)
+├── securitygroup.tf       # To create the security group and rules
 
 └── README.md              # This file**
 
